@@ -1,4 +1,7 @@
-﻿using System.Security.Cryptography;
+﻿using ConsoleApp54.Operations;
+
+// See https://aka.ms/new-console-template for more information
+Console.WriteLine("bienvenido");
 
 Console.Write("Introduce el primer número: ");
 if (!double.TryParse(Console.ReadLine(), out var a))
